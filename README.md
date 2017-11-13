@@ -40,3 +40,6 @@ As probability distributions always have to add up to 1, the total not equal to 
 ![Normalize_Probability_Distribution](/docs/Normalize_Distribution.png)
 
 
+### Move Motion
+The movement of car self could be in-accurate.
+![Inexact_Motion](/docs/Inexact_Motion.png)

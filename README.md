@@ -43,3 +43,34 @@ As probability distributions always have to add up to 1, the total not equal to 
 ### Move Motion
 The movement of car self could be in-accurate.
 ![Inexact_Motion](/docs/Inexact_Motion.png)
+
+
+### Probability and Bayes' Rule
+![Bayes_Rule_3](/docs/Bayes_Rule_3.png)
+
+![Bayes_Rule](/docs/Bayes_Rule.png)
+
+![Bayes_Rule_2](/docs/Bayes_Rule_2.png)
+
+![Bayes_Rule_2](/docs/Bayes_Rule_Cancer_Test.png)
+
+### Total Probability
+![Total_Probability_Event_Space](/docs/Total_Probability_Event_Space.png)
+
+![Total_Probability](/docs/Total_Probability.png)
+
+![Total_Probability_Formal](/docs/Total_Probability_Formal.png)
+
+![Total_Probability_Coin](/docs/Total_Probability_Coin.png)
+
+![Bayes_Rule_Two_Coin](/docs/Bayes_Rule_Two_Coin.png)
+
+![Bayes_Rule_Two_Coin_MyAnswer](/docs/Bayes_Rule_Two_Coin_MyAnswer.png)
+
+
+
+
+
+
+
+

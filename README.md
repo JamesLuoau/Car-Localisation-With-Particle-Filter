@@ -69,6 +69,22 @@ The movement of car self could be in-accurate.
 
 
 
+## Localization Posterior 
+
+### Data Input
+
+m = 1d map
+
+![1D Map](/docs/1D_Map.png)
+
+
+z
+
+![z](/docs/input_z.png)
+
+Control Vector u
+![control_vector_u](/docs/input_control_vector.png)
+
 
 
 

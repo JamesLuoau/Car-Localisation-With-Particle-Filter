@@ -71,19 +71,73 @@ The movement of car self could be in-accurate.
 
 ## Localization Posterior 
 
+Localization is all about estimating the probability distribution of the state xt (the pose of the car),
+on that condition that all previous observations z(range, measurements...) that from time 1 to t,
+all previous controls u (yaw/pitch/roll rates, velocities) from time 1 to t, 
+also map m (assume not changed) are given
+
+![1D Map](/docs/probability%20distribution%20of%20the%20state%20car%20pose.png)
+
+
 ### Data Input
+
 
 m = 1d map
 
 ![1D Map](/docs/1D_Map.png)
 
+```text
+1	9		
+2	15		
+3	25		
+4	31	
+5	59	
+6	77
+```
 
-z
+observations z (range, measurements...)
 
 ![z](/docs/input_z.png)
 
-Control Vector u
+```text
+Observation 1----------
+4.5	
+32
+
+Observation 2----------
+#Empty
+
+Observation 3----------
+39.5	
+3
+
+Observation 4----------
+#Empty
+
+```
+
+Control Vector u (yaw/pitch/roll rates, velocities)
+
+
 ![control_vector_u](/docs/input_control_vector.png)
+
+```text
+#For example Delta velocities, below moved 1m for every time interval
+1	
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+```
 
 
 

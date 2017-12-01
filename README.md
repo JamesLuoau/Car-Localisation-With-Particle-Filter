@@ -76,7 +76,7 @@ on that condition that all previous observations z(range, measurements...) that 
 all previous controls u (yaw/pitch/roll rates, velocities) from time 1 to t, 
 also map m (assume not changed) are given
 
-![1D Map](/docs/probability%20distribution%20of%20the%20state%20car%20pose.png)
+![probability distribution of the state car pose](/docs/probability%20distribution%20of%20the%20state%20car%20pose.png)
 
 
 ### Data Input
@@ -138,6 +138,29 @@ Control Vector u (yaw/pitch/roll rates, velocities)
 1
 1
 ```
+
+
+### The Problems 
+
+![two_problems_for_full_calculation](/docs/two_problems_for_full_calculation.png)
+
+
+We aim to estimate state beliefs bel(x​t) without the need to carry our entire observation 
+history. We will accomplish this by manipulating our posterior p(xt∣z1:t−1,μ1:t,m), obtaining 
+a recursive state estimator. For this to work, we must demonstrate that our current belief bel(xt) 
+can be expressed by the belief one step earlier bel(xt−1), then use new data to update 
+only the current belief. This recursive filter is known as the Bayes Localization filter or 
+Markov Localization, and enables us to avoid carrying historical observation and motion data. 
+We will achieve this recursive state estimator using Bayes Rule, the Law of Total Probability, 
+and the Markov Assumption.
+
+![convert_to_use_previews_state_only](/docs/convert_to_use_previews_state_only.png)
+
+
+
+
+
+
 
 
 

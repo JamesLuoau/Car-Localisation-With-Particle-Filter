@@ -184,6 +184,9 @@ Observation_and_Motion_made_Normalization
 
 ![Observation_and_Motion_made_Normalization](/docs/Observation_and_Motion_made_Normalization_2.png)
 
+Total_Probability_and_Markov_Assumptions???
+
+![Total_Probability_and_Markov_Assumptions](/docs/Total_Probability_and_Markov_Assumptions.png)
 
 
 

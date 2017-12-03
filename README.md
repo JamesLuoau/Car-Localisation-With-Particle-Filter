@@ -154,8 +154,16 @@ Markov Localization, and enables us to avoid carrying historical observation and
 We will achieve this recursive state estimator using Bayes Rule, the Law of Total Probability, 
 and the Markov Assumption.
 
+convert_to_use_previews_state_only
+
 ![convert_to_use_previews_state_only](/docs/convert_to_use_previews_state_only.png)
 
+
+split_observation_z_to_current_and_previous
+
+![split_observation_z_to_current_and_previous](/docs/split_observation_z_to_current_and_previous.png)
+
+![split_observation_z_to_current_and_previous](/docs/convert_to_use_previews_state_only_new_fomula.png)
 
 
 

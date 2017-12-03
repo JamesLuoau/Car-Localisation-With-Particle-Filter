@@ -165,6 +165,30 @@ split_observation_z_to_current_and_previous
 
 ![split_observation_z_to_current_and_previous](/docs/convert_to_use_previews_state_only_new_fomula.png)
 
+Observation_and_Motion_Model
+
+![Observation_and_Motion_Model](/docs/Observation_and_Motion_Model.png)
+
+Observation model describes the probability distribution of the observation vector t
+another assumption that a state x_t are previous observations, all controllers, all 
+map are given.
+Motion model is the probability distribution of x_t given all observations from
+one to t-1, all controllers and map and take account that no currect observations are
+included in the motion model
+
+Observation_and_Motion_made_Normalization
+
+![Observation_and_Motion_made_Normalization](/docs/Observation_and_Motion_made_Normalization.png)
+
+Observation_and_Motion_made_Normalization
+
+![Observation_and_Motion_made_Normalization](/docs/Observation_and_Motion_made_Normalization_2.png)
+
+
+
+
+
+
 
 
 

@@ -189,6 +189,75 @@ Total_Probability_and_Markov_Assumptions???
 ![Total_Probability_and_Markov_Assumptions](/docs/Total_Probability_and_Markov_Assumptions.png)
 
 
+Motion_Model_Before_Markov_Assumption
+
+![Motion_Model_Before_Markov_Assumption](/docs/Motion_Model_Before_Markov_Assumption.png)
+
+Motion_Model_After_Markov_Assumption
+
+![Motion_Model_After_Markov_Assumption](/docs/Motion_Model_After_Markov_Assumption.png)
+
+Recursive_Structure
+
+![Recursive_Structure](/docs/Recursive_Structure.png)
+
+
+### Motion Model Probability
+
+[Motion_Model_Probability PDF](/docs/Motion_Model_Probability.pdf)
+
+[Motion_Model_Probability Source Code](/src/main_motion_model.cpp)
+
+
+### Observation Model
+
+![Observation_Model_Details](/docs/Observation_Model_Details.png)
+
+
+[Observation_Model_Probability PDF](/docs/Observation_Model_Probability.pdf)
+
+
+[Observation_Model_Probability Source Code](/src/main_observation_model.cpp)
+
+```c
+class Helpers {
+public:
+
+	//definition of one over square root of 2*pi:
+	constexpr static float STATIC_ONE_OVER_SQRT_2PI = 1/sqrt(2*M_PI) ;
+	float ONE_OVER_SQRT_2PI = 1/sqrt(2*M_PI) ;
+
+	/*****************************************************************************
+	 * In Observation Model, x is measurment from car position, measurment has error which put in std
+	 * mu is the mean of measurment, which is from car position how far away from HD map
+	*****************************************************************************/
+	static float normpdf(float x_measurment_from_car_position, float mu_mean_land_mark_from_car_position, float std_car_measurment) {
+	    return (STATIC_ONE_OVER_SQRT_2PI/std)*exp(-0.5*pow((x-mu)/std,2));
+	}
+	
+};
+
+```
+
+
+
+## Bicycle Motion Models
+
+### Position with Yaw Rate, Velocity, time spent
+
+![Position with Yaw Rate ZERO, Velocity, time spent](/docs/Bicycle_Model_New_Position_When_Yaw_Zero.png)
+
+![Position with Yaw Rate NOT ZERO, Velocity, time spent](/docs/Bicycle_Model_New_Position_When_Yaw_Not_Zero.png)
+
+![New_Position_With_Odometry](/docs/Bicycle_Model_New_Position_With_Odometry.png)
+
+## Particle Filters
+
+![Particle_Filters_Never_Sampled](/docs/Particle_Filters_Never_Sampled.png)
+
+
+
+
 
 
 

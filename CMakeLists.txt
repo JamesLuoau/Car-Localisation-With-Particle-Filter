@@ -23,13 +23,13 @@ endif(${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
 
 add_executable(particle_filter ${sources})
 
-add_executable(main_motion_model src/main_motion_model.cpp)
+#add_executable(main_motion_model src/main_motion_model.cpp)
 
-add_executable(main_observation_model src/main_observation_model.cpp)
+#add_executable(main_observation_model src/main_observation_model.cpp)
 
-add_executable(markov_localization src/main_markov_localization.cpp)
+#add_executable(markov_localization src/main_markov_localization.cpp)
 
-add_executable(particle_filter_init src/main_particle_filter_init.cpp)
+#add_executable(particle_filter_init src/main_particle_filter_init.cpp)
 
 
 
